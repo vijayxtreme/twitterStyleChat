@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://<username>:<password>@dbh42.mlab.com:27427/social_javascriptla', function(){
+mongoose.connect('<your mlab url goes here>', function(){
 	console.log('connected to mongolabs');
 });
 
